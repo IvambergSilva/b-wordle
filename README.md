@@ -1,10 +1,11 @@
-## Administrador do Portfólio
+## B-WORDLE
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/IvambergSilva/b-wordle?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/IvambergSilva/b-wordle?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/IvambergSilva/b-wordle?style=for-the-badge)
 
-<!--<img src="" alt="Exemplo de imagem">-->
+### Registro do deploy da API:
+<img src="/image/b-wordle-photo.jpg" alt="Exemplo de imagem">
 
 <hr><br>
 
