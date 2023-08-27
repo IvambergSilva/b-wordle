@@ -1,0 +1,68 @@
+@import '../../Styles/Variables.scss';
+
+.keyboard {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    .letter {
+        border: 1px solid $background;
+        width: 3rem;
+        height: 4rem;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 0.5rem;
+        background: $grey;
+        cursor: pointer;
+
+        >div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: -1;
+        }
+
+        &:active {
+            position: relative;
+            top: 2px;
+        }
+
+        &.lastLine {
+            width: 6rem;
+        }
+
+        &.correctPosition {
+            background: $correctPosition;
+            color: $color-text;
+            transition: all 0.3s ease-in;
+        }
+
+        &.incorrectPosition {
+            background: $incorrectPosition;
+            color: $color-text;
+            transition: all 0.3s ease-in;
+        }
+
+        &.incorrectGuess {
+            background: $incorrectGuess;
+            color: $color-text;
+            transition: all 0.3s ease-in;
+        }
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+}
